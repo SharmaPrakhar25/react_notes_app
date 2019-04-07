@@ -1,0 +1,17 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'notesCard.scss';
+
+.page-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.App-logo {  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}

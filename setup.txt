@@ -1,0 +1,54 @@
+important commmand needs to setup the project 
+
+//To initialize a react app startup folder
+npm create-react-app my-app 
+npx create-react-app my-app. 
+
+
+// To install bootstrap with jquery and popper
+npm install --save bootstrap@4.1.1 jquery@3.3.1 popper.js@^1.14.3
+
+
+// npm audit -- to check vulnerablity 
+
+//Scss setup and implementation
+npm install --save node-sass-chokidar@1.2.2 npm-rum-all@4.1.2
+
+
+write script in package.json file which takes css from scss files and save it into app.css files
+Create a file in app folder named app.scss
+Create a style folder, in which create files per component and make css for it 
+In _variables, define color variables and import variable file in main.scss
+
+Import main.scss into app.scss file
+
+// Create a header component in shared folder
+// Create a scss file in styles folder for header, for convention purpose name it _header.scss and save it with the css of header
+// Import it in mail file
+
+// For main compenent, create a compenent folder and save you compoenent in it 
+
+
+A context of a function is the value of this for that function -- i.e.
+the object in which the function is called as a method.
+var x = {
+    value: 10,
+    a: function(){
+        // so the context of this function is x.
+    }
+}
+
+When you start having functions, you might have different levels of your program and this represents where you are,
+what object called the function.
+
+const coffee = {
+  strong: true,
+  info: function() {
+    console.log(`The coffee is ${this.strong ? '' : 'not '}strong`)
+  },
+}
+coffee.info() // The coffee is strong
+
+
+//For routing 
+npm install --save react-router-dom
